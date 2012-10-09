@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="xslt/master.xsl" ?>
+<data>
+  <params>
+    <website-name>Website Name</website-name>
+    <page-title>Home</page-title>
+  </params>
+  <about>
+    <section id="1" handle="about">About</section>
+    <entry id="1">
+      <title>Hello</title>
+      <description>
+        <p>Welcome to our site. This is a little description about who we are.</p>
+      </description>
+      <field-name attribute="attribute-value">value</field-name>
+    </entry>
+  </about>
+</data>
