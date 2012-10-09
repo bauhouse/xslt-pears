@@ -1,0 +1,5 @@
+# Preprocessing HTML
+
+To process HTML, run the following commands in the same directory as this README file.
+
+xsltproc -v -o index.html xslt/master.xsl index.xml
