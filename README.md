@@ -6,13 +6,13 @@ Dan Cedarholm [announced Pears](http://simplebits.com/notebook/2012/02/07/pears/
 
 > Yesterday, on stage at [An Event Apart Atlanta](http://aneventapart.com/2012/atlanta/), I announced [Pears](http://pea.rs): an open source WordPress theme for creating your own markup & style pattern library.
 > 
-> I wanted to create my own database repository of commonly used patterns and figured the tool might be useful for others as well. Breaking interfaces down into patterns has been immensely helpful in learning and re-evaluating the best possible code to implement them. IÕve just gotten started and will be adding more as I create them.
+> I wanted to create my own database repository of commonly used patterns and figured the tool might be useful for others as well. Breaking interfaces down into patterns has been immensely helpful in learning and re-evaluating the best possible code to implement them. I've just gotten started and will be adding more as I create them.
 > 
-> But Pears isnÕt about how I code these patternsÑitÕs a tool for creating your own.
+> But Pears isn't about how I code these patterns--it's a tool for creating your own.
 > 
 > The theme is available [on GitHub](https://github.com/simplebits/Pears) for those that want to chip in and make it even better. Admittedly, the code is a little rough here and there, but it works.
 > 
-> Looking forward to seeing othersÕ takes on the patterns that power flexible web interfaces.
+> Looking forward to seeing others' takes on the patterns that power flexible web interfaces.
 
 When I saw the [Pears theme](https://github.com/simplebits/Pears) that [Dan Cedarholm](http://simplebits.com) had created for WordPress, I thought it would make a great [Symphony](http://getsymphony.com/) ensemble. So, I created a [Symphony ensemble](https://github.com/bauhouse/sym-pears). But I also thought it would serve as an interesting example of how easy it might be to create a static site generator with XSLT.
 
