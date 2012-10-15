@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Horizontal Links</page-title>
+		<root>../..</root>
+		<root-page>navigation</root-page>
+		<current-page>horizontal-links</current-page>
+		<current-path>/navigation/horizontal-links</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="24">
+			<title handle="horizontal-links">Horizontal Links</title>
+			<category>
+				<item id="4" handle="navigation" section-handle="categories" section-name="Categories">Navigation</item>
+			</category>
+			<date time="16:15" weekday="5">2012-04-20</date>
+			<html><nav role="navigation">
+	<ul>
+		<li><a href="#">This is a link</a></li>
+		<li class="active"><a href="#">Active Link</a></li>
+		<li><a href="#">Lorem link</a></li>
+		<li><a href="#">Dolor link two</a></li>
+		<li><a href="#">Here is a link</a></li>
+	</ul>
+</nav></html>
+			<css>nav[role="navigation"] li {
+	float: left;
+	font-size: 14px;
+	border-right: 1px solid #ddd;
+	}
+nav[role="navigation"] li:last-child {
+	border-right: none;
+	}
+nav[role="navigation"] li a {
+	float: left;
+	padding: 0 10px;
+	text-decoration: none;
+	color: #999;
+	border-radius: 4px;
+	}
+nav[role="navigation"] li a:hover,
+nav[role="navigation"] li a:focus {
+	color: #333;
+	}
+nav[role="navigation"] li a:active {
+	color: #666;
+	}
+nav[role="navigation"] li.active a {
+	font-weight: bold;
+	color: #333;
+	}</css>
+		</entry>
+	</patterns>
+</data>

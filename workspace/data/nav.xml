@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<nav>
+		<section id="2" handle="patterns">Patterns</section>
+		<category link-id="1" link-handle="content" value="Content">
+			<entry id="6">
+				<title handle="article">Article</title>
+			</entry>
+			<entry id="7">
+				<title handle="data-table">Data Table</title>
+			</entry>
+			<entry id="8">
+				<title handle="footer">Footer</title>
+			</entry>
+			<entry id="9">
+				<title handle="slats-html5">Slats (HTML5)</title>
+			</entry>
+			<entry id="10">
+				<title handle="slats-text-only">Slats (text only)</title>
+			</entry>
+			<entry id="11">
+				<title handle="slats-thumbnails">Slats (thumbnails)</title>
+			</entry>
+			<entry id="12">
+				<title handle="thumbnail-grid">Thumbnail Grid</title>
+			</entry>
+		</category>
+		<category link-id="4" link-handle="navigation" value="Navigation">
+			<entry id="22">
+				<title handle="breadcrumb">Breadcrumb</title>
+			</entry>
+			<entry id="23">
+				<title handle="horizontal-buttons">Horizontal Buttons</title>
+			</entry>
+			<entry id="24">
+				<title handle="horizontal-links">Horizontal Links</title>
+			</entry>
+			<entry id="25">
+				<title handle="horizontal-tabs">Horizontal Tabs</title>
+			</entry>
+			<entry id="26">
+				<title handle="pagination">Pagination</title>
+			</entry>
+			<entry id="27">
+				<title handle="vertical-links">Vertical Links</title>
+			</entry>
+		</category>
+		<category link-id="3" link-handle="lists" value="Lists">
+			<entry id="17">
+				<title handle="definition">Definition</title>
+			</entry>
+			<entry id="18">
+				<title handle="stats-tabs">Stats Tabs</title>
+			</entry>
+			<entry id="20">
+				<title handle="tags-buttons">Tags (buttons)</title>
+			</entry>
+			<entry id="21">
+				<title handle="tags-vertical">Tags (vertical)</title>
+			</entry>
+		</category>
+		<category link-id="2" link-handle="forms" value="Forms">
+			<entry id="13">
+				<title handle="multi-left-labels">Multi (left labels)</title>
+			</entry>
+			<entry id="14">
+				<title handle="multi-top-labels">Multi (top labels)</title>
+			</entry>
+			<entry id="15">
+				<title handle="search">Search</title>
+			</entry>
+			<entry id="16">
+				<title handle="simple-top-labels">Simple (top labels)</title>
+			</entry>
+		</category>
+	</nav>
+</data>

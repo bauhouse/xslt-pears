@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Horizontal Tabs</page-title>
+		<root>../..</root>
+		<root-page>navigation</root-page>
+		<current-page>horizontal-tabs</current-page>
+		<current-path>/navigation/horizontal-tabs</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="25">
+			<title handle="horizontal-tabs">Horizontal Tabs</title>
+			<category>
+				<item id="4" handle="navigation" section-handle="categories" section-name="Categories">Navigation</item>
+			</category>
+			<date time="16:15" weekday="5">2012-04-20</date>
+			<html><nav role="navigation">
+	<ul>
+		<li><a href="#">This is a link</a></li>
+		<li class="active"><a href="#">Active Tab</a></li>
+		<li><a href="#">Lorem link</a></li>
+		<li><a href="#">Dolor link two</a></li>
+		<li><a href="#">Here is a link</a></li>
+	</ul>
+</nav></html>
+			<css>nav[role="navigation"] li {
+	float: left;
+	margin: 0 4px 0 0;
+	font-size: 14px;
+	}
+nav[role="navigation"] li a {
+	float: left;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #fff;
+	background: #bbb;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	}
+nav[role="navigation"] li a:hover,
+nav[role="navigation"] li a:focus {
+	background: #999;
+	}
+nav[role="navigation"] li a:active {
+	background: #888;
+	}
+nav[role="navigation"] li.active a {
+	color: #fff;
+	background: #666;
+	}</css>
+		</entry>
+	</patterns>
+</data>

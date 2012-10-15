@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Data Table</page-title>
+		<root>../..</root>
+		<root-page>content</root-page>
+		<current-page>data-table</current-page>
+		<current-path>/content/data-table</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="7">
+			<title handle="data-table">Data Table</title>
+			<category>
+				<item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+			</category>
+			<date time="13:33" weekday="5">2012-04-20</date>
+			<html><table>
+	<tr>
+		<th>Type</th>
+		<th>Date</th>
+		<th>Rating</th>
+	</tr>
+	<tr>
+		<td>Cheddar</td>
+		<td>Jan 3, 2012</td>
+		<td>★★★</td>
+	</tr>
+	<tr>
+		<td>Havarti</td>
+		<td>Jan 12, 2012</td>
+		<td>★★★★</td>
+	</tr>
+	<tr>
+		<td>Muenster</td>
+		<td>Jan 20, 2012</td>
+		<td>★★</td>
+	</tr>
+	<tr>
+		<td>Swiss</td>
+		<td>Jan 22, 2012</td>
+		<td>★</td>
+	</tr>
+	<tr>
+		<td>Gouda</td>
+		<td>Jan 25, 2012</td>
+		<td>★★★★★</td>
+	</tr>
+	<tr>
+		<td>Emmentaler</td>
+		<td>Jan 27, 2012</td>
+		<td>★★★</td>
+	</tr>
+</table></html>
+			<css>table {
+	margin: 0;
+	padding: 0;
+	}
+table th,
+table td {
+	padding: 10px 20px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+	}
+table th {
+	border-width: 2px;
+	}
+table td {
+	color: #666;
+	}
+table tr:last-child th,
+table tr:last-child td {
+	border-bottom: none;
+	}
+table tr:nth-child(even) {
+	background: #eee;
+	}</css>
+		</entry>
+	</patterns>
+</data>

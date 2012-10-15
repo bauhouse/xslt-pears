@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Definition</page-title>
+		<root>../..</root>
+		<root-page>lists</root-page>
+		<current-page>definition</current-page>
+		<current-path>/lists/definition</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="17">
+			<title handle="definition">Definition</title>
+			<category>
+				<item id="3" handle="lists" section-handle="categories" section-name="Categories">Lists</item>
+			</category>
+			<date time="15:57" weekday="5">2012-04-20</date>
+			<html><dl>
+	<dt>The title is here</dt>
+	<dd>Lorem ipsum definition goes here dolor sit amet.</dd>
+	<dt>The title is here</dt>
+	<dd>Lorem ipsum definition goes here dolor sit amet.</dd>
+	<dt>The title is here</dt>
+	<dd>Lorem ipsum definition goes here dolor sit amet.</dd>
+</dl></html>
+			<css>dl dt {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.2;
+	}
+dl dd {
+	margin: 0 0 10px 0;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #666;
+	}</css>
+		</entry>
+	</patterns>
+</data>

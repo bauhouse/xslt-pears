@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Tags (buttons)</page-title>
+		<root>../..</root>
+		<root-page>lists</root-page>
+		<current-page>tags-buttons</current-page>
+		<current-path>/lists/tags-buttons</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="20">
+			<title handle="tags-buttons">Tags (buttons)</title>
+			<category>
+				<item id="3" handle="lists" section-handle="categories" section-name="Categories">Lists</item>
+			</category>
+			<date time="16:08" weekday="5">2012-04-20</date>
+			<html><ol class="tags">
+	<li><a href="#">cheddar</a></li>
+	<li><a href="#">swiss</a></li>
+	<li><a href="#">havarti</a></li>
+	<li><a href="#">gouda</a></li>
+	<li><a href="#">manchego</a></li>
+</ol></html>
+			<css>ol.tags li {
+	float: left;
+	margin: 0 5px 5px 0;
+	font-size: 14px;
+	}
+ol.tags li a {
+	float: left;
+	padding: 5px 10px 6px 25px;
+	font-weight: normal;
+	color: #fff;
+	background: #bbb url(/wp-content/themes/pears/images/tag-bg.png) no-repeat 0 50%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: background-color .2s ease-in-out;
+	-moz-transition: background-color .2s ease-in-out;
+	transition: background-color .2s ease-in-out;
+	}
+ol.tags li a:hover,
+ol.tags li a:focus {
+	background-color: #999;
+	}
+ol.tags li a:active {
+	background-color: #ccc;
+	}</css>
+		</entry>
+	</patterns>
+</data>

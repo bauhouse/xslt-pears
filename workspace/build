@@ -1,0 +1,24 @@
+#!/bin/bash
+
+xsltproc -v -o ../index.html pages/home.xsl data/home.xml;
+xsltproc -v -o ../content/article/index.html pages/patterns.xsl data/content-article.xml;
+xsltproc -v -o ../content/data-table/index.html pages/patterns.xsl data/content-data-table.xml;
+xsltproc -v -o ../content/footer/index.html pages/patterns.xsl data/content-footer.xml;
+xsltproc -v -o ../content/slats-html5/index.html pages/patterns.xsl data/content-slats-html5.xml;
+xsltproc -v -o ../content/slats-text-only/index.html pages/patterns.xsl data/content-slats-text-only.xml;
+xsltproc -v -o ../content/slats-thumbnails/index.html pages/patterns.xsl data/content-slats-thumbnails.xml;
+xsltproc -v -o ../content/thumbnail-grid/index.html pages/patterns.xsl data/content-thumbnail-grid.xml;
+xsltproc -v -o ../navigation/breadcrumb/index.html pages/patterns.xsl data/navigation-breadcrumb.xml;
+xsltproc -v -o ../navigation/horizontal-buttons/index.html pages/patterns.xsl data/navigation-horizontal-buttons.xml;
+xsltproc -v -o ../navigation/horizontal-links/index.html pages/patterns.xsl data/navigation-horizontal-links.xml;
+xsltproc -v -o ../navigation/horizontal-tabs/index.html pages/patterns.xsl data/navigation-horizontal-tabs.xml;
+xsltproc -v -o ../navigation/pagination/index.html pages/patterns.xsl data/navigation-pagination.xml;
+xsltproc -v -o ../navigation/vertical-links/index.html pages/patterns.xsl data/navigation-vertical-links.xml;
+xsltproc -v -o ../lists/definition/index.html pages/patterns.xsl data/lists-definition.xml;
+xsltproc -v -o ../lists/stats-tabs/index.html pages/patterns.xsl data/lists-stats-tabs.xml;
+xsltproc -v -o ../lists/tags-buttons/index.html pages/patterns.xsl data/lists-tags-buttons.xml;
+xsltproc -v -o ../lists/tags-vertical/index.html pages/patterns.xsl data/lists-tags-vertical.xml;
+xsltproc -v -o ../forms/multi-left-labels/index.html pages/patterns.xsl data/forms-multi-left-labels.xml;
+xsltproc -v -o ../forms/multi-top-labels/index.html pages/patterns.xsl data/forms-multi-top-labels.xml;
+xsltproc -v -o ../forms/search/index.html pages/patterns.xsl data/forms-search.xml;
+xsltproc -v -o ../forms/simple-top-labels/index.html pages/patterns.xsl data/forms-simple-top-labels.xml;

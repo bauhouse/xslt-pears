@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Vertical Links</page-title>
+		<root>../..</root>
+		<root-page>lists</root-page>
+		<current-page>stats-tabs</current-page>
+		<current-path>/lists/stats-tabs</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="18">
+			<title handle="stats-tabs">Stats Tabs</title>
+			<category>
+				<item id="3" handle="lists" section-handle="categories" section-name="Categories">Lists</item>
+			</category>
+			<date time="15:58" weekday="5">2012-04-20</date>
+			<html><ul class="stats-tabs">
+	<li><a href="#">1,234 <span>donuts</span></a></li>
+	<li><a href="#">567 <span>kayaks</span></a></li>
+	<li><a href="#">23,456 <span>kittens</span></a></li>
+</ul></html>
+			<css>ul.stats-tabs li {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+	border-right: 1px solid #ccc;
+	}
+ul.stats-tabs li:last-child {
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+ul.stats-tabs li a {	
+	display: block;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	}
+ul.stats-tabs li a span {
+	display: block;
+	margin-top: 2px;
+	font-size: 13px;
+	font-weight: normal;
+	}</css>
+		</entry>
+	</patterns>
+</data>

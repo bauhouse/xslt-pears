@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Multi (left labels)</page-title>
+		<root>../..</root>
+		<root-page>forms</root-page>
+		<current-page>multi-left-labels</current-page>
+		<current-path>/forms/multi-left-labels</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="13">
+			<title handle="multi-left-labels">Multi (left labels)</title>
+			<category>
+				<item id="2" handle="forms" section-handle="categories" section-name="Categories">Forms</item>
+			</category>
+			<date time="13:45" weekday="5">2012-04-20</date>
+			<html><form action="/">
+	<fieldset>
+		<label for="name">Name</label>
+		<input type="text" id="name" class="form-text" />
+		<p class="form-help">This is help text under the form field.</p>
+	</fieldset>
+	
+	<fieldset>
+		<label for="email">Email</label>
+		<input type="email" id="email" class="form-text" />
+	</fieldset>
+	
+	<fieldset>
+		<label for="gender">Gender</label>
+		<select id="gender">
+			<option>Male</option>
+			<option>Female</option>
+			<option>Cylon</option>
+		</select>
+	</fieldset>
+
+	<fieldset class="radio">
+		<label for="notifications">Notifications</label>
+		<ul>
+			<li><label><input type="radio" name="notifications" /> Send me email</label></li>
+			<li><label><input type="radio" name="notifications" /> Don't send me email</label></li>
+			<li><label><input type="radio" name="notifications" /> Send me flowers</label></li>
+		</ul>
+	</fieldset>
+
+	<fieldset>
+		<label for="url">URL</label>
+		<input type="url" id="url" class="form-text" placeholder="http://yourdomain.com" />
+	</fieldset>
+
+	<fieldset>
+		<label for="bio">Bio</label>
+		<textarea id="bio"></textarea>
+	</fieldset>
+	
+	<fieldset class="check">
+		<label><input type="checkbox" /> I accept the terms of service and lorem ipsum.</label>
+	</fieldset>
+
+	<fieldset class="form-actions">
+		<input type="submit" value="Submit" />
+	</fieldset>
+</form></html>
+			<css>form fieldset {
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	font-size: 14px;
+	border-bottom: 1px solid #eee;
+	}
+form fieldset.form-actions {
+	margin: 0 0 0 20%;
+	padding: 0;
+	border: none;
+	}
+form fieldset.check {
+	padding-left: 20%;	
+	}
+form fieldset label {
+	float: left;
+	width: 20%;
+	margin: 4px 0 5px 0;
+	font-weight: bold;
+	}
+form fieldset.check label {
+	display: inline;
+	float: none;
+	width: auto;
+	font-weight: normal;
+	}
+form fieldset.radio ul li label {
+	display: inline;
+	float: none;
+	width: auto;
+	font-weight: normal;
+	}
+form fieldset input.form-text,
+form fieldset textarea {
+	display: block;
+	width: 50%;
+	padding: 5px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	background: #f5f5f5;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+form fieldset input.form-text:focus {
+	border: 1px solid #ccc;
+	background: #fff;
+	}
+form fieldset textarea {
+	height: 150px;
+	}
+form fieldset select {
+	min-width: 25%;
+	margin: 0;
+	}
+form fieldset.radio ul {
+	margin: 5px 0 0 20%;
+	}
+form fieldset.radio ul li {
+	margin: 0 0 5px 0;
+	}
+form fieldset.radio ul li:last-child {
+	margin: 0;
+	}
+form fieldset p.form-help {
+	margin: 5px 0 0 20%;
+	font-size: 12px;
+	color: #999;
+	}
+form input[type="submit"] {
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 12px;	
+	font-weight: bold;
+	border: 1px solid #ccc;
+	background: #eee;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+	border: 1px solid #bbb;
+	background: #e5e5e5;
+	}
+form input[type="submit"]:active {
+	border: 1px solid #ccc;
+	background: #eee;
+	}
+@media screen and (max-width: 600px) {
+	form fieldset label {
+		display: block;
+		float: none;
+		width: auto;
+		margin: 0 0 5px 0;
+		}
+	form fieldset.form-actions,
+	form fieldset.check,
+	form fieldset.radio ul,
+	form fieldset p.form-help {
+		margin-left: 0;
+		padding-left: 0;
+		}
+	form fieldset input.form-text,
+	form fieldset textarea {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		}
+	}</css>
+		</entry>
+	</patterns>
+</data>

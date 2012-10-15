@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Vertical Links</page-title>
+		<root>../..</root>
+		<root-page>navigation</root-page>
+		<current-page>pagination</current-page>
+		<current-path>/navigation/pagination</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="27">
+			<title handle="vertical-links">Vertical Links</title>
+			<category>
+				<item id="4" handle="navigation" section-handle="categories" section-name="Categories">Navigation</item>
+			</category>
+			<date time="16:16" weekday="5">2012-04-20</date>
+			<html><nav role="navigation">
+	<ul>
+		<li><a href="#">This is a link</a></li>
+		<li class="active"><a href="#">Active Link</a></li>
+		<li><a href="#">Lorem link</a></li>
+		<li><a href="#">Dolor link two</a></li>
+		<li><a href="#">Here is a link</a></li>
+	</ul>
+</nav></html>
+			<css>nav[role="navigation"] ul {
+	width: 25%;
+	}
+nav[role="navigation"] ul li a {
+	display: block;
+	padding: 5px 15px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	}
+nav[role="navigation"] ul li a:focus,
+nav[role="navigation"] ul li a:hover {
+	background: #eee;
+	}
+nav[role="navigation"] ul li a:active {
+	background: #ddd;
+	}</css>
+		</entry>
+	</patterns>
+</data>

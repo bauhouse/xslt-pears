@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Breadcrumb</page-title>
+		<root>../..</root>
+		<root-page>navigation</root-page>
+		<current-page>breadcrumb</current-page>
+		<current-path>/navigation/breadcrumb</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="22">
+			<title handle="breadcrumb">Breadcrumb</title>
+			<category>
+				<item id="4" handle="navigation" section-handle="categories" section-name="Categories">Navigation</item>
+			</category>
+			<date time="16:14" weekday="5">2012-04-20</date>
+			<html><nav class="breadcrumb">
+	<a href="#">This is a link</a> /
+	<a href="#">Lorem link</a> / 
+	<a href="#">Dolor link two</a> /
+	<a href="#">Here is a link</a> /
+	<strong>Active Link</strong>
+</nav></html>
+			<css>nav.breadcrumb {
+	font-size: 14px;
+	color: #ccc;
+	}
+nav.breadcrumb a {
+	margin: 0 5px;
+	text-decoration: none;
+	color: #999;
+	}
+nav.breadcrumb a:first-child {
+	margin-left: 0;
+	}
+nav.breadcrumb a:hover,
+nav.breadcrumb a:focus {
+	color: #333;
+	}
+nav.breadcrumb a:active {
+	color: #666;
+	}
+nav.breadcrumb strong {
+	margin-left: 5px;
+	font-weight: bold;
+	color: #333;
+	}</css>
+		</entry>
+	</patterns>
+</data>

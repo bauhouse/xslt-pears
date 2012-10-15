@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Thumbnail Grid</page-title>
+		<root>../..</root>
+		<root-page>content</root-page>
+		<current-page>thumbnail-grid</current-page>
+		<current-path>/content/thumbnail-grid</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="12">
+			<title handle="thumbnail-grid">Thumbnail Grid</title>
+			<category>
+				<item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+			</category>
+			<date time="13:44" weekday="5">2012-04-20</date>
+			<html><ol class="thumb-grid group">
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+	<li><a href="#"><img src="../../workspace/assets/images/temp-img.png" alt="thumbnail" /></a></li>
+</ol></html>
+			<css>ol.thumb-grid li {
+	float: left;
+	width: 15%;
+	margin: 0 5% 5% 0;
+	}
+ol.thumb-grid li:nth-child(5n) {
+	margin-right: 0;
+	}
+ol.thumb-grid li a img {
+	width: 100%;
+	}</css>
+		</entry>
+	</patterns>
+</data>

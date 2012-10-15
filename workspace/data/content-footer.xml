@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Footer</page-title>
+		<root>../..</root>
+		<root-page>content</root-page>
+		<current-page>footer</current-page>
+		<current-path>/content/footer</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="8">
+			<title handle="footer">Footer</title>
+			<category>
+				<item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+			</category>
+			<date time="13:37" weekday="5">2012-04-20</date>
+			<html><footer role="contentinfo">
+	<nav role="navigation">
+		<ul>
+			<li><a href="#">This is a link</a></li>
+			<li><a href="#">Active Link</a></li>
+			<li><a href="#">Lorem link</a></li>
+			<li><a href="#">Dolor link two</a></li>
+			<li><a href="#">Here is a link</a></li>
+		</ul>
+	</nav>		
+	<p>Copyright © 2012 Company Co. All rights reserved.</p>
+</footer></html>
+			<css>footer[role="contentinfo"] {
+	padding: 15px 0 0 0;
+	font-size: 14px;
+	border-top: 1px solid #ddd;
+	}
+footer[role="contentinfo"] nav ul li {
+	display: inline;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+	font-weight: bold;
+	border-right: 1px solid #ccc;
+	}
+footer[role="contentinfo"] nav ul li:last-child {
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+footer[role="contentinfo"] p {
+	margin: 10px 0;
+	}</css>
+		</entry>
+	</patterns>
+</data>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Tags (buttons)</page-title>
+		<root>../..</root>
+		<root-page>lists</root-page>
+		<current-page>tags-vertical</current-page>
+		<current-path>/lists/tags-vertical</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="21">
+			<title handle="tags-vertical">Tags (vertical)</title>
+			<category>
+				<item id="3" handle="lists" section-handle="categories" section-name="Categories">Lists</item>
+			</category>
+			<date time="16:13" weekday="5">2012-04-20</date>
+			<html><ol class="tags">
+	<li><a href="#"><span class="meta">123</span> cheddar</a></li>
+	<li><a href="#"><span class="meta">34</span> swiss</a></li>
+	<li><a href="#"><span class="meta">1,234</span> havarti</a></li>
+	<li><a href="#"><span class="meta">8</span> gouda</a></li>
+	<li><a href="#"><span class="meta">56</span> manchego</a></li>
+</ol></html>
+			<css>ol.tags {
+	width: 25%;
+	}
+ol.tags li a {
+	display: block;
+	padding: 4px 8px;
+	}
+ol.tags li a span.meta {
+	float: right;
+	color: #bbb;
+	}
+ol.tags li a:hover {
+	background: #f0f0f0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}</css>
+		</entry>
+	</patterns>
+</data>

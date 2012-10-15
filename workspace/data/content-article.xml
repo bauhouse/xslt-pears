@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<params>
+		<website-name>Pears</website-name>
+		<page-title>Article</page-title>
+		<root>../..</root>
+		<root-page>content</root-page>
+		<current-page>article</current-page>
+		<current-path>/content/article</current-path>
+	</params>
+	<patterns>
+		<section id="2" handle="patterns">Patterns</section>
+		<entry id="6">
+			<title handle="article">Article</title>
+			<category>
+				<item id="1" handle="content" section-handle="categories" section-name="Categories">Content</item>
+			</category>
+			<date time="13:01" weekday="5">2012-04-20</date>
+			<html><article>
+	<header>
+		<h2>The Title Goes Here</h2>	
+	</header>
+	
+	<aside>
+		This is aside text lorem ipsum dolor sit amet consectetur adipisicing.
+	</aside>
+	
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <a href="#">nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <a href="#">tempor incididunt</a> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+	<footer>
+		Posted August 22, 2011
+	</footer>
+</article></html>
+			<css>article {
+	margin: 0 0 20px 20%;
+	}
+article header h2 {
+	margin: 0 0 15px 0;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.3;
+	}
+article aside {
+	float: left;
+	width: 20%;
+	margin-left: -25%;
+	font-size: 12px;
+	line-height: 1.8;
+	color: #999;
+	}
+@media screen and (max-width: 700px) {
+	article aside {
+		float: none;
+		width: auto;
+		margin: 0 0 20px 0;
+		line-height: 1.5;
+		}
+	}
+article p {
+	margin: 0 0 20px 0;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #666;
+	}
+article footer {
+	font-size: 14px;
+	color: #999;
+	}</css>
+		</entry>
+	</patterns>
+</data>
